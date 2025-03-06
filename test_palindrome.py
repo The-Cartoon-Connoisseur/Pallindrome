@@ -22,3 +22,7 @@ class TestPalindrome(unittest.TestCase):
 #Test 4
     def test_two_identical_characters_returns_true(self):
         self.assertTrue(is_palindrome("bb"))
+
+#Test 5
+    def test_non_palindrome_string_returns_false(self):
+        self.assertFalse(is_palindrome("abc"))
