@@ -14,3 +14,7 @@ class TestPalindrome(unittest.TestCase):
 #Test 2
     def test_empty_string_returns_false(self):
         self.assertFalse(is_palindrome(""))
+
+#Test 3
+    def test_single_character_returns_true(self):
+        self.assertTrue(is_palindrome("a"))
