@@ -34,3 +34,10 @@ class TestPalindrome(unittest.TestCase):
 #Test 7
     def test_non_palindrome_word_returns_false(self):
         self.assertFalse(is_palindrome("toronto"))
+
+#Test 8
+    def test_palindrome_sentence_returns_true(self):
+        self.assertTrue(is_palindrome("Able was I ere I saw Elba"))
+
+if __name__ == '__main__':
+    unittest.main()
